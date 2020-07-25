@@ -80,7 +80,7 @@ const StackBoxInner = styled.a`
       height: 2px;
       width: 100%;
       background-color: ${props => props.color || "#fff"};
-      bottom: 165px;
+      bottom: 172px;
       left: 30px;
       position: absolute;
       transform: translateX(100%);
