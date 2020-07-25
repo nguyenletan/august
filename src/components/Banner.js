@@ -74,8 +74,8 @@ const Banner = () => (
         <div className="row">
           <div className="col-sm-11 col-sm-offset-1">
             <H1>
-              <HeaderSmall>We are September</HeaderSmall> Hello.
-              <br /> We're September.
+              <HeaderSmall>We are August</HeaderSmall> Hello.
+              <br /> We're August.
             </H1>
           </div>
         </div>
