@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-
 import bannerImg from "../static/banner.jpg"
 import Nav from "./Nav"
 
@@ -32,7 +31,6 @@ const BottomTriangle = styled.div`
   right: 0;
   z-index: 5;
   overflow: hidden;
-  //margin-bottom: -90px;
 `
 
 const H1 = styled.h1`
@@ -54,28 +52,25 @@ const HeaderSmall = styled.small`
   margin-bottom: 1em;
 `
 
-function createSVG() {
-  return {
-    __html: `<svg style="fill: #fff;" id="header-feature__cover__triangle" width="2550px" height="187px"
+const createSVG = () => ({
+  __html: `<svg style="fill: #fff;" id="header-feature__cover__triangle" width="2550px" height="187px"
          viewBox="969 303.9 2550 186" enableBackground="new 969 303.9 2550 186" xml:space="preserve">
       <path id="header-feature__cover__triangle__path"
   d="M969,303.5C969,303.5,969,490.5,969,490.5C969,490.5,3519,490.5,3519,490.5C3519,490.5,3519,490.5,3519,490.5C3519,490.5,969,303.5,969,303.5C969,303.5,969,303.5,969,303.5"/>
       <desc>Created with Snap</desc>
       <defs/></svg>`,
-  }
-}
+})
 
 const Banner = () => (
   <BannerWrapper bg={bannerImg}>
     <BannerInner>
-      <Nav></Nav>
-      {/*<img src={bannerImg} alt="banner" width="100%"/>*/}
+      <Nav/>
       <HeaderContainer className="container">
         <div className="row">
           <div className="col-sm-11 col-sm-offset-1">
             <H1>
               <HeaderSmall>We are August</HeaderSmall> Hello.
-              <br /> We're August.
+              <br/> We're August.
             </H1>
           </div>
         </div>
