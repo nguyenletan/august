@@ -14,6 +14,7 @@ const PrimaryNav = styled.nav`
   height: auto;
   top: 40px;
   position: sticky;
+  z-index: 6;
 `
 
 const NavInner = styled.div`
