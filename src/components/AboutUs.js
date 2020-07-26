@@ -27,6 +27,7 @@ const RealTiles = styled.section`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  align-items: stretch;
   justify-content: center;
 `
 
